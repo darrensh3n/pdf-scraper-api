@@ -1,6 +1,7 @@
 Backend for scraping pdf information from the repo syllabus-scraper.
 
 **Running the Program**
+Make sure inside pdf-api directory
 1. python -m venv pymupdf-venv
 2. . pymupdf-venv/bin/activate
 3. python -m pip install --upgrade pip
@@ -16,3 +17,7 @@ Backend for scraping pdf information from the repo syllabus-scraper.
 
 *If installing requirements.txt not found, install each requirement
 manually using pip install
+
+**Local Testing**
+1. uvicorn main:app --reload --port 8000
+2. http://localhost:8000/docs
