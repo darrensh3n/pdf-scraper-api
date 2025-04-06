@@ -21,3 +21,7 @@ manually using pip install
 **Local Testing**
 1. uvicorn main:app --reload --port 8000
 2. http://localhost:8000/docs
+
+**Running Using NGrok**
+1. Run ngrok http 8000 in terminal
+2. Get the link
